@@ -17,7 +17,7 @@ speedtest-cli > /home/$USERNAME/Desktop/$stf
 
 clear
 
-mplayer /home/$USERNAME/Desktop/speed/notify.mp3 &
+mplayer https://raw.githubusercontent.com/alectramell/speed/master/notify.mp3 &
 
 notify-send --expire-time="900" --icon="notification-network-wireless-connected" "..Speed Test Complete!.."
 
